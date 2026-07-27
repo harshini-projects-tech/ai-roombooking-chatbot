@@ -72,8 +72,10 @@ export function ChatWindow() {
   const [error, setError] = useState<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
 
+  const queryClient = useQueryClient();
   const { messages, sendMessage, status } = useChat({
     transport: new DefaultChatTransport({ api: "/api/chat" }),
+    onFinish: () => void queryClient.invalidateQueries({ queryKey: ["rooms-bookings"] }),
     onError: (e) => setError(e.message || "The assistant is unavailable right now."),
   });
 
