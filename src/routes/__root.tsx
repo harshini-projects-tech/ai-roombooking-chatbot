@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Aria · AI Room Booking Chatbot Prototype" },
+      { name: "description", content: "Conversational AI room booking assistant prototype: intent detection, slot filling, live availability checks and instant meeting-room reservations." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Aria · AI Room Booking Chatbot Prototype" },
+      { property: "og:description", content: "Conversational AI room booking assistant prototype: intent detection, slot filling, live availability checks and instant meeting-room reservations." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Aria · AI Room Booking Chatbot Prototype" },
+      { name: "twitter:description", content: "Conversational AI room booking assistant prototype: intent detection, slot filling, live availability checks and instant meeting-room reservations." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3ae2b5da-06a4-4dd7-9947-ef8584d3ca1f/id-preview-a3a96f92--a4ea1532-7a50-4f1e-90b6-faea79890968.lovable.app-1785161275261.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3ae2b5da-06a4-4dd7-9947-ef8584d3ca1f/id-preview-a3a96f92--a4ea1532-7a50-4f1e-90b6-faea79890968.lovable.app-1785161275261.png" },
     ],
     links: [
       {

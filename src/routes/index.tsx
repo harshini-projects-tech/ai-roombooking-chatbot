@@ -16,7 +16,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Book meeting rooms in natural language. Intent detection, slot filling and tool-backed availability checks.",
+          "Conversational AI room booking assistant prototype: intent detection, slot filling, live availability checks and instant meeting-room reservations.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
